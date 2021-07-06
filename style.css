@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+color: rgb(87, 85, 85);}
+
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+}
+.blue-color{
+    color: rgba(54, 54, 207, 0.911);
+ }
+.flexible-container{display: flex;
+margin-bottom: 100px;}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+   width: 100%;
+}
+.first-background{
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+}
+.order-button{
+    text-decoration: none;
+   background-image: linear-gradient(cyan, blue);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 20px;
+}
+.top-banner{
+    background-image: url(images/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+}
+.popular-orders{
+    padding-left: 10%;
+}
+.food-item{ 
+    width: 30%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 20px;
+
+}
+.food-item img{
+    border-radius: 20px;
+}
+footer{
+    display: flex;
+    width: 100%;
+    margin-left: 3%;
+    margin-right: 3%;
+    border-radius: 20px; padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+    background-color: white;
+}
+.last-footer{
+    width: 80%;
+    background-color: rgb(24, 0, 130);
+    
+    color: white;
+    font-weight: 700; 
+    padding-right: 6%;
+    padding-bottom: 6%;
+    padding-top: 6%;
+    padding-left: 6%;
+}
